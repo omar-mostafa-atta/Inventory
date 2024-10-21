@@ -1,0 +1,135 @@
+﻿@model IEnumerable<Product>
+
+<html lang="en">
+<head>
+    <title>Product List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Set a common font */
+        }
+
+        .table thead th {
+            background-color: #f8f9fa; /* Light gray for header */
+            color: black; /* Text color for header */
+        }
+
+        .table tbody tr {
+            background-color: #f8f9fa; /* Light color for table rows */
+        }
+
+            .table tbody tr:hover {
+                background-color: #f1f1f1; /* Light hover color */
+            }
+
+        .btn-custom {
+            background-color: #28a745; /* Green for "Create New Product" */
+            color: white;
+        }
+
+            .btn-custom:hover {
+                background-color: #218838; /* Darker green on hover */
+            }
+
+        .btn-primary {
+            background-color: #007bff; /* Blue for Search button */
+            color: white;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3; /* Darker blue on hover */
+            }
+
+        .btn-warning {
+            background-color: #ffc107; /* Yellow for Edit button */
+            color: black;
+        }
+
+            .btn-warning:hover {
+                background-color: #e0a800; /* Darker yellow on hover */
+            }
+
+        .btn-danger {
+            background-color: #dc3545; /* Red for Delete button */
+            color: white;
+        }
+
+            .btn-danger:hover {
+                background-color: #c82333; /* Darker red on hover */
+            }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark py-5">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">
+                    <div class="text-center my-5">
+                        <h1 class="display-5 fw-bolder text-white mb-2">Products</h1>
+                        <p class="lead text-white-50 mb-4">Let's take a look about our products</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <div class="row mb-3">
+                <div class="col-md-8">
+                    <form method="get" asp-action="GetAll" class="d-flex" asp-controller="Product">
+                        <input type="search" name="searchString" class="form-control me-2" placeholder="Search Product By Name" style="max-width: 300px;" />
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </form>
+                </div>
+                @if (Context.User.IsInRole("admin"))
+                {
+
+                <div class="col-md-4 text-end">
+                    <a asp-action="Insert" class="btn btn-primary"><i class="fas fa-plus"></i> Create New Product</a>
+                </div>
+                }
+            </div>
+        </div>
+    </header>
+    <div class="container mt-4">
+
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            @foreach (var product in Model)
+            {
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- Product image -->
+                        <img class="card-img-top" src="~/assets/ProductImages/@product.imageurl" alt="@product.imageurl" />
+                        <!-- Product details -->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name -->
+                                <h5 class="fw-bolder">@product.Name</h5>
+                                <!-- Product price -->
+                                <p>@product.Price.ToString("C")</p>
+                            </div>
+                        </div>
+                        <!-- Product actions -->
+                        <div class="user-actions text-center">
+                            <a asp-action="GetById" asp-route-id="@product.ID" class="btn btn-outline-dark mb-2 bg-warning">
+                                Details
+                            </a>
+                            @if (Context.User.IsInRole("admin"))
+                            {
+
+                                <div class="d-flex justify-content-center">
+                                    <a asp-action="Update" asp-route-id="@product.ID" class="btn btn-warning me-2">
+                                        <i class="fas fa-edit"></i> Edit
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@product.ID" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this user?');">
+                                        <i class="fas fa-trash-alt"></i> Delete
+                                    </a>
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

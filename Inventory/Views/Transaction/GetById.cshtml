@@ -1,0 +1,65 @@
+﻿@model Transaction
+
+<header class="bg-dark py-5">
+    <div class="container px-5">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-6">
+                <div class="text-center my-5">
+                    <h1 class="display-5 fw-bolder text-white mb-2">Transaction Details</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container mt-5">
+    <hr />
+
+    <div class="card">
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-4">
+                    <strong>Transaction Type:</strong>
+                </dt>
+                <dd class="col-sm-8">
+                    @Model.TransactionType
+                </dd>
+
+                <dt class="col-sm-4">
+                    <strong>Quantity:</strong>
+                </dt>
+                <dd class="col-sm-8">
+                    @Model.Quantity
+                </dd>
+
+                <dt class="col-sm-4">
+                    <strong>Date:</strong>
+                </dt>
+                <dd class="col-sm-8">
+                    @Model.TransactionDate.ToString("MM/dd/yyyy")
+                </dd>
+
+                <dt class="col-sm-4">
+                    <strong>Stock Quantity:</strong>
+                </dt>
+                <dd class="col-sm-8">
+                    <!-- Assuming you have StockQuantity property in Transaction model -->
+                    @Model.Quantity
+                </dd>
+            </dl>
+
+            <div class="mt-4">
+                <a asp-action="Update" asp-route-id="@Model.ID" class="btn btn-warning">
+                    <i class="fas fa-edit"></i> Edit
+                </a>
+                <a asp-action="GetAll" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Back to List
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}

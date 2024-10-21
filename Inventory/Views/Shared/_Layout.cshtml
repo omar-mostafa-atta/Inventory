@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Inventory</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Google Font (Roboto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Inventory.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom Font and Body Styling -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: #ffffff !important;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 1.2rem; /* Adjust the size here */
+        }
+
+            .navbar-dark .navbar-nav .nav-link:hover {
+                color: #ffeb3b;
+            }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+
+            footer a {
+                color: #ffeb3b;
+            }
+
+                footer a:hover {
+                    color: #ffc107;
+                }
+    </style>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom box-shadow fixed-top" style="height:80px">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="font-size:25px; margin-right:90px; padding-left:10px">Inventory</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        @if (Context.User.IsInRole("admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Dashboard" asp-action="DisplayDash" style="font-size:22px">
+                                    <i class="fas fa-home"></i> Dashboard
+                                </a>
+                            </li>
+                        }
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index" style="font-size:22px">
+                                <i class="fas fa-home"></i> Home
+                            </a>
+                        </li>
+                        @if (Context.User.IsInRole("admin"))
+                        {
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="User" asp-action="GetAll" style="font-size:22px">
+                                    <i class="fas fa-users"></i> Users
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Supplier" asp-action="GetAll" style="font-size:22px">
+                                    <i class="fas fa-truck"></i> Suppliers
+                                </a>
+                            </li>
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Category" asp-action="GetAll" style="font-size:22px">
+                                <i class="fas fa-list"></i> Categories
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Product" asp-action="GetAll" style="font-size:22px">
+                                <i class="fas fa-box"></i> Products
+                            </a>
+                        </li>
+                        @if (Context.User.IsInRole("admin"))
+                        {
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Transaction" asp-action="GetAll" style="font-size:22px">
+                                    <i class="fas fa-exchange-alt"></i> Transactions
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Alert" asp-action="GetAll" style="font-size:22px">
+                                    <i class="fas fa-bell"></i> Alerts
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Report" asp-action="Index" style="font-size:22px">
+                                    <i class="fas fa-file-alt"></i> Reports
+                                </a>
+                            </li>
+                        }
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Register" style="font-size:22px">
+                                    <i class="fas fa-user-plus"></i> Register
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Login" style="font-size:22px">
+                                    <i class="fas fa-sign-in-alt"></i> Login
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Account" asp-action="SignOut" style="font-size:22px">
+                                    <i class="fas fa-sign-out-alt"></i> Logout
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container-fluid mt-5">
+        <main role="main" class="pb-4">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Bootstrap JS & jQuery -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+E:\depi project tester\george project\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.deps.json
+E:\depi project tester\george project\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.dll
+E:\depi project tester\george project\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.pdb
+E:\depi project tester\george project\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.dll
+E:\depi project tester\george project\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.pdb
+E:\depi project tester\george project\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.AssemblyReference.cache
+E:\depi project tester\george project\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\depi project tester\george project\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfoInputs.cache
+E:\depi project tester\george project\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfo.cs
+E:\depi project tester\george project\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CoreCompileInputs.cache
+E:\depi project tester\george project\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.sourcelink.json
+E:\depi project tester\george project\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CopyComplete
+E:\depi project tester\george project\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.dll
+E:\depi project tester\george project\Inventory.Repository\obj\Debug\net8.0\refint\Inventory.Repository.dll
+E:\depi project tester\george project\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.pdb
+E:\depi project tester\george project\Inventory.Repository\obj\Debug\net8.0\ref\Inventory.Repository.dll
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.deps.json
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.dll
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.pdb
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.dll
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.pdb
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.AssemblyReference.cache
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfoInputs.cache
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfo.cs
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CoreCompileInputs.cache
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.sourcelink.json
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventor.001127E0.Up2Date
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.dll
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\refint\Inventory.Repository.dll
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.pdb
+D:\مبادره مصر الرقميه\Technical\Project\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\ref\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.deps.json
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.pdb
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.dll
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.pdb
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.AssemblyReference.cache
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfoInputs.cache
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfo.cs
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CoreCompileInputs.cache
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.sourcelink.json
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventor.001127E0.Up2Date
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\refint\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.pdb
+C:\Users\anton\OneDrive\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\ref\Inventory.Repository.dll
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.deps.json
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.dll
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.pdb
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.dll
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.pdb
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.AssemblyReference.cache
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfoInputs.cache
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfo.cs
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CoreCompileInputs.cache
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.sourcelink.json
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventor.001127E0.Up2Date
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.dll
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\refint\Inventory.Repository.dll
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.pdb
+C:\Users\CLS\Desktop\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\ref\Inventory.Repository.dll
+E:\depi\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.deps.json
+E:\depi\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.dll
+E:\depi\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.pdb
+E:\depi\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.dll
+E:\depi\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.pdb
+E:\depi\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.AssemblyReference.cache
+E:\depi\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\depi\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfoInputs.cache
+E:\depi\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfo.cs
+E:\depi\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CoreCompileInputs.cache
+E:\depi\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.sourcelink.json
+E:\depi\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CopyComplete
+E:\depi\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.dll
+E:\depi\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\refint\Inventory.Repository.dll
+E:\depi\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.pdb
+E:\depi\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\ref\Inventory.Repository.dll
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.deps.json
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.dll
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.pdb
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.dll
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.pdb
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.AssemblyReference.cache
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfoInputs.cache
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfo.cs
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.sourcelink.json
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventor.001127E0.Up2Date
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.dll
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\refint\Inventory.Repository.dll
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.pdb
+C:\Users\Boody\Documents\GitHub\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\ref\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.deps.json
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.pdb
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.dll
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.pdb
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.AssemblyReference.cache
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfoInputs.cache
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfo.cs
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CoreCompileInputs.cache
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.sourcelink.json
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventor.001127E0.Up2Date
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\refint\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.pdb
+C:\Users\anton\OneDrive\Desktop\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\ref\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.deps.json
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.pdb
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.dll
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.pdb
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.AssemblyReference.cache
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfoInputs.cache
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfo.cs
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CoreCompileInputs.cache
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.sourcelink.json
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventor.001127E0.Up2Date
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\refint\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.pdb
+C:\Users\anton\OneDrive\Desktop\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\ref\Inventory.Repository.dll
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.deps.json
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.dll
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.pdb
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.dll
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.pdb
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.AssemblyReference.cache
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfoInputs.cache
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfo.cs
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CoreCompileInputs.cache
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.sourcelink.json
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventor.001127E0.Up2Date
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.dll
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\refint\Inventory.Repository.dll
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.pdb
+D:\the newest\the newest\newest\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\ref\Inventory.Repository.dll
+F:\depii2\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.deps.json
+F:\depii2\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.dll
+F:\depii2\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.pdb
+F:\depii2\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.dll
+F:\depii2\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.pdb
+F:\depii2\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.AssemblyReference.cache
+F:\depii2\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.GeneratedMSBuildEditorConfig.editorconfig
+F:\depii2\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfoInputs.cache
+F:\depii2\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfo.cs
+F:\depii2\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CoreCompileInputs.cache
+F:\depii2\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.sourcelink.json
+F:\depii2\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CopyComplete
+F:\depii2\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.dll
+F:\depii2\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\refint\Inventory.Repository.dll
+F:\depii2\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.pdb
+F:\depii2\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\ref\Inventory.Repository.dll
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.deps.json
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.dll
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.pdb
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.dll
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.pdb
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.AssemblyReference.cache
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfoInputs.cache
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfo.cs
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.sourcelink.json
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventor.001127E0.Up2Date
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.dll
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\refint\Inventory.Repository.dll
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.pdb
+C:\Users\Omar Hatem\Desktop\Inventory\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\ref\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.deps.json
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.pdb
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.dll
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\bin\Debug\net8.0\Inventory.DB.pdb
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.AssemblyReference.cache
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfoInputs.cache
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfo.cs
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.CoreCompileInputs.cache
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.sourcelink.json
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventor.001127E0.Up2Date
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\refint\Inventory.Repository.dll
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.pdb
+C:\Users\anton\OneDrive\Desktop\final\Inventory-Managment\Inventory.Repository\obj\Debug\net8.0\ref\Inventory.Repository.dll

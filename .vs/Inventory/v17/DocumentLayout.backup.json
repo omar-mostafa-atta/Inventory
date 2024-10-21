@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\Technical\\Project\\Inventory-Managment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2814D629-3DD5-4C21-93D9-8B4F8B65F2E9}|Inventory\\Inventory.csproj|d:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\technical\\project\\inventory-managment\\inventory\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2814D629-3DD5-4C21-93D9-8B4F8B65F2E9}|Inventory\\Inventory.csproj|solutionrelative:inventory\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A31E44-A151-4ACE-93D1-1FE874E97F27}|Inventory.DB\\Inventory.DB.csproj|d:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\technical\\project\\inventory-managment\\inventory.db\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A31E44-A151-4ACE-93D1-1FE874E97F27}|Inventory.DB\\Inventory.DB.csproj|solutionrelative:inventory.db\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A31E44-A151-4ACE-93D1-1FE874E97F27}|Inventory.DB\\Inventory.DB.csproj|d:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\technical\\project\\inventory-managment\\inventory.db\\viewmodels\\transactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A31E44-A151-4ACE-93D1-1FE874E97F27}|Inventory.DB\\Inventory.DB.csproj|solutionrelative:inventory.db\\viewmodels\\transactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2814D629-3DD5-4C21-93D9-8B4F8B65F2E9}|Inventory\\Inventory.csproj|d:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\technical\\project\\inventory-managment\\inventory\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2814D629-3DD5-4C21-93D9-8B4F8B65F2E9}|Inventory\\Inventory.csproj|solutionrelative:inventory\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A31E44-A151-4ACE-93D1-1FE874E97F27}|Inventory.DB\\Inventory.DB.csproj|d:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\technical\\project\\inventory-managment\\inventory.db\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A31E44-A151-4ACE-93D1-1FE874E97F27}|Inventory.DB\\Inventory.DB.csproj|solutionrelative:inventory.db\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2814D629-3DD5-4C21-93D9-8B4F8B65F2E9}|Inventory\\Inventory.csproj|d:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\technical\\project\\inventory-managment\\inventory\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2814D629-3DD5-4C21-93D9-8B4F8B65F2E9}|Inventory\\Inventory.csproj|solutionrelative:inventory\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 83,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\Technical\\Project\\Inventory-Managment\\Inventory.DB\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Inventory.DB\\Models\\Product.cs",
+              "ToolTip": "D:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\Technical\\Project\\Inventory-Managment\\Inventory.DB\\Models\\Product.cs*",
+              "RelativeToolTip": "Inventory.DB\\Models\\Product.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAIA/wBwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T11:14:14.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "D:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\Technical\\Project\\Inventory-Managment\\Inventory\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "Inventory\\Controllers\\TransactionController.cs",
+              "ToolTip": "D:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\Technical\\Project\\Inventory-Managment\\Inventory\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "Inventory\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAArwEQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:58:29.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionViewModel.cs",
+              "DocumentMoniker": "D:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\Technical\\Project\\Inventory-Managment\\Inventory.DB\\ViewModels\\TransactionViewModel.cs",
+              "RelativeDocumentMoniker": "Inventory.DB\\ViewModels\\TransactionViewModel.cs",
+              "ToolTip": "D:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\Technical\\Project\\Inventory-Managment\\Inventory.DB\\ViewModels\\TransactionViewModel.cs",
+              "RelativeToolTip": "Inventory.DB\\ViewModels\\TransactionViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:56:22.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\Technical\\Project\\Inventory-Managment\\Inventory\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Inventory\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\Technical\\Project\\Inventory-Managment\\Inventory\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Inventory\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:50:44.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "D:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\Technical\\Project\\Inventory-Managment\\Inventory.DB\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "Inventory.DB\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "D:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\Technical\\Project\\Inventory-Managment\\Inventory.DB\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "Inventory.DB\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAWwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:50:32.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\Technical\\Project\\Inventory-Managment\\Inventory\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Inventory\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\\u0645\u0628\u0627\u062F\u0631\u0647 \u0645\u0635\u0631 \u0627\u0644\u0631\u0642\u0645\u064A\u0647\\Technical\\Project\\Inventory-Managment\\Inventory\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Inventory\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T10:48:27.637Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

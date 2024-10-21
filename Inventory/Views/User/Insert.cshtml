@@ -1,0 +1,48 @@
+﻿ @using Inventory.DB.ViewModels;
+ @model Inventory.DB.ViewModels.UserViewModel;
+
+<header class="bg-dark py-5">
+    <div class="container px-5">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-6">
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container mt-5">
+
+    <form asp-action="Insert" class="mt-4 p-4 border rounded shadow-lg">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Full Name</label>
+            <input asp-for="Name" class="form-control" placeholder="Enter full name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Password" class="form-label">Password</label>
+            <input asp-for="Password" type="password" class="form-control" placeholder="Enter password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label">Email Address</label>
+            <input asp-for="Email" class="form-control" placeholder="Enter email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Phone" class="form-label">Phone Number</label>
+            <input asp-for="Phone" class="form-control" placeholder="Enter phone number" />
+            <span asp-validation-for="Phone" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="imageurl" class="control-label"></label>
+            <input asp-for="imageurl" type="text" class="form-control" />
+            <span asp-validation-for="imageurl" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Create User</button>
+    </form>
+</div>
+

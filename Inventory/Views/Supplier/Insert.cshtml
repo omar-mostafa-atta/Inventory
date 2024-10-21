@@ -1,0 +1,65 @@
+﻿@using Inventory.DB.ViewModels
+@model Inventory.DB.ViewModels.SupplierViewModel
+
+
+<header class="bg-dark py-5">
+	<div class="container px-5">
+		<div class="row gx-5 justify-content-center">
+			<div class="col-lg-6">
+				<div class="text-center my-5">
+					<h1 class="display-5 fw-bolder text-white mb-2">Insert new Supplier</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+@{
+	ViewBag.Title = "Add New Supplier";
+}
+
+
+<div class="container mt-4">
+	<h2 class="mb-4">Add New Supplier</h2>
+
+	<form asp-action="Insert">
+		<div class="mb-3">
+			<label asp-for="Name" class="form-label"></label>
+			<input asp-for="Name" class="form-control" placeholder="Enter Supplier Name" />
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="Email" class="form-label"></label>
+			<input asp-for="Email" class="form-control" placeholder="Enter Email" />
+			<span asp-validation-for="Email" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="Phone" class="form-label"></label>
+			<input asp-for="Phone" class="form-control" placeholder="Enter Phone Number" />
+			<span asp-validation-for="Phone" class="text-danger"></span>
+		</div>
+		<div class="col-md-6">
+			<label asp-for="imageurl" class="control-label"></label>
+			<input asp-for="imageurl" type="text" class="form-control" />
+			<span asp-validation-for="imageurl" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<label asp-for="Password" class="form-label"></label>
+			<input asp-for="Password" type="password" class="form-control" placeholder="Enter Password" />
+			<span asp-validation-for="Password" class="text-danger"></span>
+		</div>
+
+		<div class="mb-3">
+			<input type="submit" value="Insert" class="btn btn-primary" />
+		</div>
+	</form>
+
+	<div class="mt-4">
+		<a asp-action="GetAll" class="btn btn-secondary">
+			<i class="fas fa-arrow-left"></i> Back to List
+		</a>
+	</div>
+</div>

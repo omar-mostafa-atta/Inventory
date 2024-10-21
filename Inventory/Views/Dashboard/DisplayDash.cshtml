@@ -1,0 +1,162 @@
+﻿<<!-- Header -->
+<header class="bg-dark py-5">
+    <div class="container px-5">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-6">
+                <div class="text-center my-5">
+                    <h1 class="display-5 fw-bolder text-white mb-2">DashBoard</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="mt-5"></div>
+    <div class="row">
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-primary text-white mb-4">
+                <div class="card-body fs-2">Number of Products</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="fs-2 text-white stretched-link" href="/product/getall">@ViewBag.ProductCount</a>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-warning text-white mb-4">
+                <div class="card-body fs-2">Number of Categories</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="fs-2 text-white stretched-link" href="/category/getall">@ViewBag.CategoryCount</a>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-success text-white mb-4">
+                <div class="card-body fs-2">Number of Suppliers</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="fs-2 text-white stretched-link" href="/supplier/getall">@ViewBag.SupplierCount</a>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+            <div class="card bg-danger text-white mb-4">
+                <div class="card-body fs-2">Number of Users</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <a class="fs-2 text-white stretched-link" href="/user/getall">@ViewBag.UserCount</a>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-boxes me-1"></i>
+            Most Stocked Product
+        </div>
+        <div class="card-body">
+            <table class="table table-striped table-bordered table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Name</th>
+                        <th>Stock Quantity</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (ViewBag.ProductsWithMostStocked != null && ViewBag.ProductsWithMostStocked.Count > 0)
+                    {
+                        foreach (var product in ViewBag.ProductsWithMostStocked)
+                        {
+                            <tr>
+                                <td>@product.Name</td>
+                                <td>@product.StockQuantity</td>
+                                <td>@product.Price</td>
+                                <td>@product.Category?.CategoryName </td> 
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4" class="text-muted text-center">No products available.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- New Section for Categories with Most Products -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-tags me-1"></i>
+            Categories with Most Products
+        </div>
+        <div class="card-body">
+            <table class="table table-striped table-bordered table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Category Name</th>
+                        <th>Number of Products</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (ViewBag.CategoriesWithMostProducts != null && ViewBag.CategoriesWithMostProducts.Count > 0)
+                    {
+                        foreach (var category in ViewBag.CategoriesWithMostProducts)
+                        {
+                            <tr>
+                                <td>@category.Category.CategoryName</td>
+                                <td>@category.ProductCount</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="2" class="text-muted text-center">No categories available.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-truck me-1"></i>
+            Suppliers with Most Products
+        </div>
+        <div class="card-body">
+            <table class="table table-striped table-bordered table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Supplier Name</th>
+                        <th>Number of Products</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (ViewBag.SuppliersWithMostProducts != null && ViewBag.SuppliersWithMostProducts.Count > 0)
+                    {
+                        foreach (var supplier in ViewBag.SuppliersWithMostProducts)
+                        {
+                            <tr>
+                                <td>@supplier.Supplier.Name</td>
+                                <td>@supplier.ProductCount</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="2" class="text-muted text-center">No suppliers available.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>

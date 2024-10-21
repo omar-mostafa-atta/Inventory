@@ -1,0 +1,51 @@
+﻿@using Inventory.DB.ViewModels
+@model CategoryViewModel
+@if (Context.User.IsInRole("admin"))
+{
+
+<!-- Header -->
+<header class="bg-dark py-5">
+    <div class="container px-5">
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-6">
+                <div class="text-center my-5">
+                    <h1 class="display-5 fw-bolder text-white mb-2">Insert new Category</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">@ViewBag.Title</h2>
+
+    <form asp-action="Insert" method="post" class="mt-4">
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label asp-for="CategoryName" class="form-label">
+                    <i class="fas fa-tag"></i> Category Name
+                </label>
+                <input asp-for="CategoryName" class="form-control" placeholder="Enter category name" />
+                <span asp-validation-for="CategoryName" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label asp-for="Description" class="form-label">
+                    <i class="fas fa-pencil-alt"></i> Description
+                </label>
+                <textarea asp-for="Description" class="form-control" rows="4" placeholder="Enter description"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label asp-for="imageurl" class="control-label"></label>
+                <input asp-for="imageurl" type="text" class="form-control" />
+                <span asp-validation-for="imageurl" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <input type="submit" value="Save" class="btn btn-primary me-2" />
+            <a asp-action="GetAll" class="btn btn-secondary">Back to List</a>
+        </div>
+    </form>
+</div>
+}

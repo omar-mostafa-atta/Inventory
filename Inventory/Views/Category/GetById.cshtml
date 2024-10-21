@@ -1,0 +1,29 @@
+﻿@model Category
+@if (Context.User.IsInRole("admin"))
+{
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Category Details</h2>
+
+    <div class="card mt-4 shadow-sm p-4 border-0 rounded">
+        <h4 class="text-center mb-3">Category Information</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-3">Category Name</dt>
+            <dd class="col-sm-9 text-muted">@Model.CategoryName</dd>
+
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9 text-muted">@Model.Description</dd>
+        </dl>
+    </div>
+
+    <div class="text-center mt-4">
+        <a asp-action="Update" asp-route-id="@Model.ID" class="btn btn-primary me-2">
+            <i class="fas fa-edit"></i> Edit
+        </a>
+        <a asp-action="GetAll" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Back to List
+        </a>
+    </div>
+</div>
+}

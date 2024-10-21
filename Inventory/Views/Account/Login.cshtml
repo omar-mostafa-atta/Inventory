@@ -1,0 +1,141 @@
+﻿@model Inventory.DB.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<style>
+    body {
+        background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full viewport height */
+        margin: 0;
+        font-family: Arial, sans-serif; /* Set a clean font */
+    }
+
+    .login-container {
+        background-color: white; /* White background for the form */
+        padding: 40px; /* More padding for spaciousness */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+        width: 100%;
+        max-width: 450px; /* Set a maximum width */
+        text-align: center; /* Center text within the form */
+    }
+
+    h1 {
+        font-size: 2.5rem; /* Larger font size for the title */
+        color: #333; /* Darker color for the title */
+        margin-bottom: 10px; /* Space below title */
+    }
+
+    h4 {
+        font-size: 1.2rem; /* Size for the subtitle */
+        color: #666; /* Lighter color for the subtitle */
+        margin-bottom: 20px; /* Space below subtitle */
+    }
+
+    .form-group {
+        margin-bottom: 20px; /* More space between form groups */
+    }
+
+    .form-control {
+        border-radius: 5px; /* Rounded corners for input fields */
+        padding: 15px; /* More padding for input fields */
+        font-size: 1rem; /* Larger font size for inputs */
+        border: 1px solid #ccc; /* Border style */
+        transition: border-color 0.3s; /* Smooth transition for border */
+    }
+
+        .form-control:focus {
+            border-color: #007bff; /* Change border color on focus */
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Light blue shadow on focus */
+        }
+
+    .btn-primary {
+        width: 100%; /* Full-width button */
+        border-radius: 5px; /* Rounded corners for button */
+        padding: 15px; /* More padding for button */
+        font-size: 1rem; /* Larger font size for button */
+        background-color: #007bff; /* Primary color */
+        border: none; /* Remove border */
+        transition: background-color 0.3s; /* Smooth transition for background */
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+    .text-danger {
+        margin-top: 5px; /* Space between error message and input */
+    }
+
+    .create-account {
+        margin-top: 15px;
+    }
+
+        .create-account a {
+            color: #007bff; /* Color for create account link */
+            text-decoration: none; /* No underline */
+        }
+
+            .create-account a:hover {
+                text-decoration: underline; /* Underline on hover */
+            }
+</style>
+
+<div class="login-container">
+    <h1>Login</h1>
+    <h4>Access Your Account</h4>
+    <hr />
+    <form asp-action="SaveLogin" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="UserName" class="control-label"></label>
+            <input asp-for="UserName" class="form-control" placeholder="Username" />
+            <span asp-validation-for="UserName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Password" class="control-label"></label>
+            <input asp-for="Password" class="form-control" placeholder="Password" type="password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Login" class="btn btn-primary" />
+        </div>
+    </form>
+    <div class="create-account">
+        <a asp-action="Register">Create New Account</a>
+    </div>
+</div>
+
+<style>
+    .login-container {
+        max-width: 400px;
+        margin: 0 auto; /* Horizontally center the form */
+        padding: 30px;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Vertically center the form */
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #f1f1f1;
+    }
+</style>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
